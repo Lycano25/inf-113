@@ -1,0 +1,112 @@
+body {
+  height: 400px;
+  background-image: url("https://us.123rf.com/450wm/kesu87/kesu871904/kesu87190400027/120480515-fondo-de-comida-griega-platos-tradicionales-griegos-diferentes-vista-superior-de-cerca.jpg?ver=6");
+background-size: cover;
+  background-repeat:repeat;
+  background-position: center center;
+}
+nav {
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #f1f1f1E6;
+    width: 100%;
+}
+
+.logo {
+    background: url(p.jpg) no-repeat 65% 50%;
+    background-size: contain;
+    width: 200px;
+    height: 180px;
+    float: left;
+}
+
+.menu{
+    position: static;
+    right: 20px;
+
+}
+
+.menu a{
+    color: #333;
+    text-decoration: BLAck;
+    font-weight: 700;
+    margin-left: 20px;
+    transition: color 0.3s;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    color: #E85860;
+}
+h1 {
+    width: 100%;
+    height: 80px;
+    margin-top: 80px;
+    padding-top: 90px;
+    padding-left: 20px;
+ }
+/*
+header {
+    width: 100%;
+    height: 600px;
+    background: url(img/bg.png) no-repeat 50% 50%;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+/* ESTILOS PARA EL MENU DESPLEGABLE */
+.btn {
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+.btn:hover > span {
+    background-color: #E85860;
+}
+.btn span {
+    display: block;
+    margin: 6px;
+    width: 40px;
+    height: 3px;
+    background: #333;
+}
+
+
+/* ESTILOS DE LA PAGINA EN GENERAL */
+p {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 20px 20px 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 550px){
+    nav {
+        overflow: visible;
+    }
+    .menu {
+        width: 100%;
+        right: 0;
+        top: 80px;
+        background: #f1f1f1E6;
+        overflow: hidden;
+        max-height: 0;
+    }
+    .menu a{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+    .btn {
+        display: block;
+        cursor: pointer;
+    }
+    .show {
+        max-height: 200px;
+    }
+}
