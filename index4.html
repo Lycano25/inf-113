@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1><center>Calculadora de peso ideal</h1></center>
+
+    </header>
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col-25">
+                    <label>ALTURA (CENTIMETROS):</label>
+                </div>
+                <div class="col-75">
+                   <input type="number"  min="1" max="100">
+                </div>    
+            </div>         
+        
+       
+        <br><br>
+        <label>EDAD</label>
+        <select  name="ciudad">
+            <option value="lp">1-10 AÑOS</option>
+            <option value="ch">10-20 AÑOS</option>
+            <option value="st">30-50 AÑOS</option>
+          </select>
+          <br><br>
+          <label>SEXO</label>
+        <select  name="ciudad">
+            <option value="lp">HOMBRE</option>
+            <option value="ch">MUJER</option>
+            </select>
+          <br><br>
+          <div class="container">
+            <div class="row">
+                <div class="col-25">
+                    <label>CIRCUNFERENCIA DE LA MUÑECA DE LA MANO DERECHA:</label>
+                </div>
+                <div class="col-75">
+                   <input type="number"  min="1" max="50">
+                </div>    
+            </div>   
+                <br><br> 
+          <input type="submit" value="enviar">
+          <input type="reset" value ="limpiar">
+          </div>
+    </form>
+    
+</body>
+</html>
