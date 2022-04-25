@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+input[type="text"],
+  select
+ {
+    
+    padding: 12px;
+    border: 2px solid rgb(19, 10, 10);
+    border-radius: 4px;
+    resize: vertical;
+    background-color: skyblue;
+  }
+ input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #f07706;
+  }
+body {
+  height: 400px;
+  background-image: url("https://f.vividscreen.info/soft/dbefa7199fcc585ea8de0b8ce2bf5689/Windows-10-Dark-Wallpaper-1920x1200.jpg");
+background-size: cover;
+  background-repeat:repeat;
+  background-position: center center;
+}
+
+.form{
+	background-color: #ffffff73;
+	margin: auto;
+	width: 90%;
+	max-width: 800px;
+	padding: 4.5em 3em;
+	border-radius: 10px;
+	
+	text-align: center;
+}
+
+.form_title{
+	font-size: 2rem;
+	margin-bottom: .5em;
+}
+
+.form_paragraph{
+	font-weight: 300;
+
+}
+.form_link{
+	font-weight: 400;
+	color: #000;
+}
+
+.form_container{
+	margin-top: 3em;
+	display: grid;
+	gap: 2.5em;
+}
+.form_group{
+	position: relative;
+	--color: #5757577e;
+}
+.form_input{
+	width: 100%;
+	background: none;
+	color: #706c6c;
+	font-size: 1rem;
+	padding: .6em .3em;
+	
+	outline: none;
+	border-bottom: 1px solid var(--color);
+	font-family: 'Roboto', sans-serif;
+
+
+
+}
+@media screen and (max-width: 600px) {
+    .col-25,
+    .col-75,
+    input[type="submit"],
+    input[type="reset"] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
