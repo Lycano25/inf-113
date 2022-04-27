@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fixed Navigation Menu</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css6.css">
+    <center><h1>PIDE COMIDA A DOMICILIO</h1></center>
+</head>
+<body>
+    <nav>
+        <div class="logo"></div>
+        <a class="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="menu">
+             
+             
+             <A HREF="https://lycano25.github.io/inf-113/re.html"> Registrarse </A>
+             <A HREF="https://lycano25.github.io/inf-113/ini.html"> Iniciar sesion </A>
+             <A HREF="https://lycano25.github.io/inf-113/pedd.html"> Pedidos online </A>
+           
+             
+        </div>
+    </nav>
+    <center>
+        <form>
+             <label> La Paz </label>
+        <select  name="ciudad">
+            <option value="lp">TACOS</option>
+            <option value="ch">ENCHILADAS</option>
+            <option value="st">HAMBURGUESAS</option>
+            <option value="st">ENSALADAS</option>
+            <option value="st">REFRESCOS</option>
+          </select>
+          <input type="submit" value="Buscar">
+        </form>
+    </center>
+    <script type="text/javascript">
+        $(".btn").on("click", function(){
+            $('.menu').toggleClass("show");
+        });
+    </script>
+</body>
+</html>
+  
+    
+    
