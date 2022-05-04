@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fixed Navigation Menu</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css7.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <center><h1>PIDE COMIDA A DOMICILIO</h1></center>
+</head>
+
+<body>
+
+    <div class="icon-bar">
+  <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/?lang=es" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j46i131i199i433i465i512j0i131i433i512l2j0i433i512j0i131i433i512l5.3484j0j15&sourceid=chrome&ie=UTF-8" class="google"><i class="fa fa-google"></i></a> 
+  <a href="https://bo.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=5493516342592&text=Hola!%20Quiero%20generar%20mas%20ventas!" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+  <a href="https://www.youtube.com/watch?v=vRu7yWotnws" class="youtube"><i class="fa fa-youtube"></i></a> 
+
+</div>
+    <nav>
+        <div class="logo"></div>
+        <a class="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="menu">
+             
+             
+             <A HREF="https://lycano25.github.io/inf-113/re.html"> Registrarse </A>
+             <A HREF="https://lycano25.github.io/inf-113/ini.html"> Iniciar sesion </A>
+             <A HREF="https://lycano25.github.io/inf-113/peddd.html"> Pedidos online </A>
+           
+             
+        </div>
+    </nav>
+    <center>
+        <form>
+             <label> La Paz </label>
+        <select  name="ciudad">
+            <option value="lp">TACOS</option>
+            <option value="ch">ENCHILADAS</option>
+            <option value="st">HAMBURGUESAS</option>
+            <option value="st">ENSALADAS</option>
+            <option value="st">REFRESCOS</option>
+          </select>
+          <input type="submit" value="Buscar">
+        </form>
+    </center>
+    <script type="text/javascript">
+        $(".btn").on("click", function(){
+            $('.menu').toggleClass("show");
+        });
+    </script>
+
+</body>
+</html>
+  
+    
+    
