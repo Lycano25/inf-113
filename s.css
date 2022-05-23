@@ -1,0 +1,24 @@
+body {
+  height: 400px;
+  background-image: url("https://fondosmil.com/fondo/17154.jpg");
+background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+button{
+  text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #blueviolet;
+    background-color: #blueviolet;
+  }
+  input{
+    text-decoration: red;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #blue;
+    background-color: #blueviolet;
+  }
+
